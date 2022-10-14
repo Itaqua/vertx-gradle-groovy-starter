@@ -1,7 +1,14 @@
 package io.biglu.icontact
 
+import io.vertx.core.Vertx;
+import io.vertx.junit5.VertxExtension;
+import io.vertx.junit5.VertxTestContext;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+
 @ExtendWith(VertxExtension.class)
-public class TestMainVerticle {
+class TestMainVerticle {
 
   @BeforeEach
   void deploy_verticle(Vertx vertx, VertxTestContext testContext) {
@@ -14,19 +21,3 @@ public class TestMainVerticle {
   }
 }
 
-/*
-import spock.lang.Specification
-
-class TestMainVerticle extends Specification {
-    def "application has a greeting"() {
-        setup:
-        def app = new App()
-
-        when:
-        def result = app.greeting
-
-        then:
-        result != null
-    }
-}
-*/

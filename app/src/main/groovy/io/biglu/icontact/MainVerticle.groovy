@@ -6,7 +6,7 @@ package io.biglu.icontact
 import io.vertx.core.AbstractVerticle;
 import io.vertx.core.Promise
 
-public class MainVerticle extends AbstractVerticle {
+class MainVerticle extends AbstractVerticle {
     void start(Promise<Void> promise) {
         println("Starting")
         
