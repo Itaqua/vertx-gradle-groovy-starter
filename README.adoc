@@ -1,6 +1,6 @@
 = Vert.x Gradle Starter
 
-This project is a template to start your own Vert.x project using Gradle.
+This project is a template to start your own Vert.x project using Gradle with Groovy.
 
 == Prerequisites
 
