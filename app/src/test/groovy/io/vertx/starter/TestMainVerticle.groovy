@@ -1,4 +1,4 @@
-package io.biglu.icontact
+package io.vertx.starter
 
 import io.vertx.core.Vertx;
 import io.vertx.junit5.VertxExtension;
